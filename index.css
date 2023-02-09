@@ -39,7 +39,7 @@ nav a{
     font-weight: bold;
     text-decoration: none;
     color: white;
-    background-color: green;
+    background-color:royalblue;
     padding: 0.5rem 1rem 0.5rem 1rem;
     border: 2px solid black;
     box-shadow: 3px 3px 0px 0px #696969;
@@ -56,7 +56,7 @@ nav a{
     width: 100vw;
 }
 
-#events-container figure.img-logo {
+#events-container figure.container-img-logo {
     display: inline-block;
     margin: 1rem 1rem 0 1rem;
 }
@@ -75,3 +75,6 @@ article{
     margin-bottom: 1rem;
 }
 
+#home-anchor{
+    background-color:seagreen;
+}
