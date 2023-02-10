@@ -39,6 +39,9 @@ nav a{
     box-shadow: 3px 3px 0px 0px #2f2f2f;
     margin-right: 0.5rem;
 }
+nav a:hover{
+    background-color:seagreen;
+}
 
 #upcoming-container{ 
     padding: 1rem 0 1rem 0;

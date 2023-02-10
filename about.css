@@ -37,8 +37,13 @@ nav a{
     background-color:royalblue;
     padding: 0.5rem 1rem 0.5rem 1rem;
     border: 2px solid black;
-    box-shadow: 3px 3px 0px 0px #696969;
+    box-shadow: 3px 3px 0px 0px #2f2f2f;
     margin-right: 0.5rem;
+    transition: 0.2s;
+}
+
+nav a:hover{
+    background-color:seagreen;
 }
 
 #about-container{ 
