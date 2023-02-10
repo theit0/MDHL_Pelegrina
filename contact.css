@@ -48,6 +48,7 @@ nav a{
     border: 2px solid black;
     box-shadow: 3px 3px 0px 0px #2f2f2f;
     margin-right: 0.5rem;
+    transition: 0.2s;
 }
 nav a:hover{
     background-color:seagreen;
