@@ -39,7 +39,6 @@ nav a:hover{
     color: black;
 }
 
-
 #text-container{ 
     background-color: hsl(0, 0%, 95%);
     padding: 2rem 0 1rem 0;
@@ -74,7 +73,7 @@ article{
     justify-content: center;
     align-items: center;
     background-color: hsl(0, 0%, 95%);
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 #logo-container{
