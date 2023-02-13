@@ -45,7 +45,7 @@ nav a:hover{
     background-color:seagreen;
 }
 
-#upcoming-container{ 
+#text-container{ 
     padding: 1rem 0 1rem 0;
     border: 2px solid black;
     text-align: center;
@@ -78,11 +78,6 @@ article{
     background-color:seagreen;
 }
 
-#contact-container{ 
-    padding: 1rem 0 1rem 0;
-    border: 2px solid black;
-    text-align: center;
-}
 #contact-anchor{
     background-color:seagreen;
 }
@@ -97,11 +92,6 @@ article{
     margin-top: 2rem;
 }
 
-#about-container{ 
-    padding: 1rem 0 1rem 0;
-    border: 2px solid black;
-    text-align: center;
-}
 #about-anchor{
     background-color:seagreen;
 }
