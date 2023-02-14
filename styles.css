@@ -102,3 +102,20 @@ article{
 section h3 {
     padding-bottom: .2rem;
 }
+
+.title-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spman-container p{
+    text-indent: 2rem;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
