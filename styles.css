@@ -60,7 +60,7 @@ nav a:hover{
 }
 
 
-p{
+p,dd,li{
     color: hsl(219, 12%, 45%);
 }
 
@@ -110,12 +110,33 @@ section h3 {
     align-items: center;
 }
 
-.spman-container p{
-    text-indent: 2rem;
+
+.main-section{
+    padding: 1rem;
+    display: flex;
 }
 
-.main-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.main-section h3 {
+    text-align: center;
 }
+
+.spman-container,.ihf-container,.allplay-container{
+    padding: 1rem;   
+}
+
+
+dt{
+    font-weight: bold;
+    color: black;
+}
+
+dl dd {
+    padding-bottom: 1rem;
+}
+
+.allplay-container p{
+    padding-bottom: 1rem;
+}
+
+
+/* text-indent: 2rem; */
