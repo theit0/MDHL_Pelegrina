@@ -112,7 +112,7 @@ section h3 {
 
 
 .main-section{
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
 }
 
@@ -121,22 +121,59 @@ section h3 {
 }
 
 .spman-container,.ihf-container,.allplay-container{
-    padding: 1rem;   
+    padding: 0 2rem 0 2rem;   
 }
-
+.ihf-container h3{
+    text-align: start;
+    margin-bottom: 1rem;
+}
+.spman-container, .allplay-container{
+    text-align: center;
+}
+p,li{
+    line-height: 1.5rem;
+}
 
 dt{
     font-weight: bold;
     color: black;
 }
 
-dl dd {
+dl dd, .allplay-container p {
     padding-bottom: 1rem;
+    line-height: 1.5rem;
+}
+p strong {
+    color: black;
 }
 
-.allplay-container p{
-    padding-bottom: 1rem;
+.game-info-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
 }
 
+table{
+    border: 2px solid black;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: 1rem 0 1rem 0;
+}
+table tr {
+    margin: .5rem 0 .5rem 0;
+    height: 1.5rem;
+}
+
+td,th{
+    width: 9rem;  
+}
+
+.contact-section{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 /* text-indent: 2rem; */
