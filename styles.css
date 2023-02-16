@@ -178,6 +178,8 @@ td,th{
     justify-content: space-evenly;
 }
 form{
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -198,12 +200,13 @@ input{
 
 .send-input{
     cursor: pointer;
-    margin: 0 0 1rem 1rem;
+    margin-bottom: 1rem;
     font-size: 1rem;
     border: 2px solid black;
-    padding: .3rem 7rem .3rem 7rem;
+    padding: .3rem 0 .3rem 0;
     color: white;
     background-color: black;
+    width: 15rem;
 }
 
 .location-maps{
@@ -211,9 +214,17 @@ input{
     justify-content: center;
     flex-wrap: wrap;
 }
+.gender{
+    margin-left: 1rem;
+}
+
 iframe{
     margin: 1rem;
     border-radius: .5rem;
+}
+
+fieldset p{
+    width: 50vw;
 }
 
 @media (max-width: 1150px) {
@@ -261,4 +272,27 @@ iframe{
     tr,th,td{
         font-size: .7rem;
     }
+}
+
+@media (max-width: 726px) {
+    .two-inputs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .two-inputs input{
+        width: 12.4rem;
+        margin-bottom: 1rem;
+    }
+    .two-inputs label{
+        margin-bottom: .3rem;
+    }
+    fieldset p{
+        width: 80vw;
+    }
+    .gender{
+        margin-left: 0;
+    }
+    
 }
