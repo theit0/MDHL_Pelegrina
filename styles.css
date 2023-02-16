@@ -87,6 +87,7 @@ article{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: center;
     margin-top: 2rem;
     gap: 1rem;
 }
