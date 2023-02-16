@@ -123,6 +123,9 @@ section h3 {
     padding-left:2rem;   
 }
 
+.spman-container{
+    padding-left:0;   
+}
 
 .ihf-container h3{
     text-align: start;
