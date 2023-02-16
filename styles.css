@@ -105,7 +105,7 @@ section h3 {
 }
 
 .title-container{
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,23 +116,19 @@ section h3 {
 .main-section{
     padding: 2rem;
     display: flex;
-    flex-wrap: wrap;
 }
 
-.main-section h3 {
-    text-align: center;
-}
 
 .spman-container,.ihf-container,.allplay-container{
-    padding: 0 2rem 0 2rem;   
+    padding-left:2rem;   
 }
+
+
 .ihf-container h3{
     text-align: start;
     margin-bottom: 1rem;
 }
-.spman-container, .allplay-container{
-    text-align: center;
-}
+
 p,li{
     line-height: 1.5rem;
 }
@@ -242,6 +238,17 @@ fieldset p{
         align-items: center;
         margin-bottom: 1rem;
     }
+    .main-section{
+        flex-wrap: wrap;
+    }
+    .ihf-container h3{
+        margin-top: 1rem;
+    }
+    .spman-container,.ihf-container,.allplay-container{
+        padding-left:1rem;   
+    }
+    
+    
 }
 @media (max-width: 480px) {
     #events-container {
