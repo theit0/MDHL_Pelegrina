@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/hockey_sticks.png" type="image/x-icon">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="main-title">Mighty Ducks Hockey League</h1>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./about.html" id="about-anchor">About MDHL</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./game_info.html">Game info</a>
+            <a href="./rules.html">Rules</a>
+            <a href="./registration.html">Registration</a>
+        </nav>
+    </header>
+
+    <main>     
+        <h2 style="text-align: center; padding: 1rem 0 1rem 0;">Registration form</h2>
+        <form action="./show_data.html" method="get">
+            <fieldset class="two-inputs">
+                <label for="firstname">Player's First Name</label>
+                <input name="firstname" type="text" id="firstname">
+                <label for="lastname" style="margin-left: 1rem;">Player's Last Name</label>
+                <input name="lastname" type="text" id="lastname">
+            </fieldset>
+
+            <fieldset>
+                <label for="street">Street Adress</label>
+                <input name="adress" type="text" id="street">
+            </fieldset>
+
+            <fieldset class="two-inputs">
+                <label for="city">City</label>
+                <input name="city" type="text" id="city">
+                <label for="zip" style="margin-left: 1rem;">Zip Code</label>
+                <input name="zipcode" type="number" id="zip">
+            </fieldset>
+
+            <fieldset class="two-inputs">
+                <label for="birthD">Birth Date (mm/dd/yyyy):</label>
+                <input name="birthdate" type="date" id="birthD">
+                <label class="gender">Gender: </label>
+                <label for="fem">Female</label>
+                <input type="checkbox" name="fem" id="fem">
+                <label for="male">Male</label>
+                <input type="checkbox" name="male" id="male">
+            </fieldset>
+
+            <fieldset class="check-inputs">
+                <label>Grade: </label>
+                <input type="checkbox" name="preschool" id="preschool">
+                <label for="preschool">Pre-School</label>
+                <input type="checkbox" name="1st" id="1st">
+                <label for="1st">1st</label>
+                <input type="checkbox" name="2nd" id="2nd">
+                <label for="2nd">2nd</label>
+                <input type="checkbox" name="3rd" id="3rd">
+                <label for="3rd">3rd</label>
+                <input type="checkbox" name="4th" id="4th">
+                <label for="4th">4th</label>
+                <input type="checkbox" name="5th" id="5th">
+                <label for="5th">5th</label>
+            </fieldset>
+
+            <fieldset style="margin-top: 2rem;">
+                <h3>Which elementary school do you live near?</h3>
+                <h4>Closest school:</h4>
+                <fieldset class="check-inputs">
+                    <input type="checkbox" name="aj" id="aj">
+                    <label for="aj">AJ Katzenmaier</label>
+                    <input type="checkbox" name="marjorie" id="marjorie">
+                    <label for="marjorie">Marjorie P Hart</label>
+                </fieldset>
+                <fieldset class="check-inputs">
+                    <input type="checkbox" name="greenbay" id="greenbay">
+                    <label for="greenbay">Greenbay</label>
+                    <input type="checkbox" name="northelem" id="northelem">
+                    <label for="northelem">North Elementary</label>
+                </fieldset>
+                <fieldset class="check-inputs">
+                    <input type="checkbox" name="howard" id="howard">
+                    <label for="howard">Howard A Yeager</label>
+                    <input type="checkbox" name="south" id="south">
+                    <label for="south">South Elementary</label>
+                </fieldset>
+            </fieldset>
+
+            <fieldset>
+                <h3>What positions(s) do you normally play? (check all that apply)</h3>
+                <fieldset class="check-inputs">
+                    <input type="checkbox" name="forward" id="forward">
+                    <label for="forward">Forward</label>
+                    <input type="checkbox" name="midfield" id="midfield">
+                    <label for="midfield">Midfield</label>
+                </fieldset>
+                <fieldset class="check-inputs">
+                    <input type="checkbox" name="defense" id="defense">
+                    <label for="defense">Defense</label>
+                    <input type="checkbox" name="goalk" id="goalk">
+                    <label for="goalk">Goalkeeper</label>
+                </fieldset>
+            </fieldset>
+
+            <fieldset>
+                <h3>Uniform size:</h3>
+                <fieldset class="check-inputs">
+                    <input type="checkbox" name="youthSm" id="youthSm">
+                    <label for="youthSm">Youth Small</label>
+                    <input type="checkbox" name="m" id="m">
+                    <label for="m">Medium</label>
+                </fieldset>
+                <fieldset class="check-inputs">
+                    <input type="checkbox" name="youthMd" id="youthMd">
+                    <label for="youthMd">Youth Medium</label>
+                    <input type="checkbox" name="l" id="l">
+                    <label for="l">Large</label>
+                </fieldset>
+                <fieldset class="check-inputs">
+                    <input type="checkbox" name="youthLg" id="youthLg">
+                    <label for="youthLg">Youth Large</label>
+                    <input type="checkbox" name="xl" id="xl">
+                    <label for="xl">Extra-Large</label>
+                </fieldset>
+                <fieldset class="check-inputs">
+                    <input type="checkbox" name="sm" id="sm">
+                    <label for="sm">Small</label>
+                </fieldset>
+            </fieldset>
+
+            <fieldset style="display: flex; align-items: center;flex-direction: column;">
+                <h4>Permission to play</h4>
+                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
+                    rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
+                    associated with hockey and in consideration for the “League” accepting the registrant for its
+                    hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL,
+                    their employees and associated personnel and volunteers,including the facilities used for
+                    practices and games, against any claim by or on behalf of the registrant as a result of the
+                    registrant's participation in the programand/orbeing transported to or from MDHL sponsored
+                    activities,which transportation
+                    By signing below, I herebyagree andauthorizethe above.In addition, by signing below, lalso
+                    acknowledge that I have read the cancellation policy and agree to its terms.</p>
+            </fieldset>
+
+            <fieldset style="margin-top: 2rem;">
+                <label for="signature">Parent/Guardian Signature</label>
+                <input type="text" id="signature">
+            </fieldset>
+
+            <fieldset style="margin-bottom: 2rem;">
+                <label for="date">Date</label>
+                <input type="date" id="date">
+            </fieldset>
+            
+            <div>
+                <input type="submit" value="Send" class="send-input">
+            </div>
+        </form>
+    </main>
+</body>
+</html>

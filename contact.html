@@ -4,27 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/hockey-sticks.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/hockey_sticks.png" type="image/x-icon">
     <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="./assets/Logo_Mighty_ducks-01.png" width="100" alt="Mighty Ducks logo">
-        <h1>Mighty Ducks Hockey League</h1>
+        <h1 id="main-title">Mighty Ducks Hockey League</h1>
         <nav>
             <a href="./index.html">Home</a>
-            <a href="./about.html">About MDHL</a>
-            <a href="./contact.html">Contact</a>
+            <a href="./about.html" >About MDHL</a>
+            <a href="./contact.html" id="contact-anchor">Contact</a>
+            <a href="./game_info.html">Game info</a>
+            <a href="./rules.html">Rules</a>
+            <a href="./registration.html">Registration</a>
         </nav>
     </header>
+    
     <main>
-        <figure>
-            <img src="./assets/hockey_3.jpg" width="300" alt="Contact hockey image">
-        </figure>
-        <div>
-            <p>Please email us at <a href="mailto:mdhl@chihockey.org">mdhl@chihockey.org</a></p>
-            <p>We reply to your email as soon as we can.</p>
+        <figure class="container-img-1"></figure>
+        <div id="text-container">
+            <h2>Contact</h2>
         </div>
+        
+        <div id="info-container">
+            <div id="logo-container">
+                <figure>
+                    <img src="./assets/Logo_Mighty_ducks-01.png" width="200" alt="Mighty Ducks logo">
+                </figure>
+            </div>
+            <div id="section-container">
+                <p>Please email us at <a href="mailto:mdhl@chihockey.org">mdhl@chihockey.org</a></p>
+                <p>We reply to your email as soon as we can.</p>
+            </div>
+        </div>        
     </main>
 </body>
 </html>
