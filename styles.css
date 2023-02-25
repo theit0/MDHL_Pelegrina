@@ -11,7 +11,11 @@
 }
 
 #main-title {
-    padding: 1rem 0 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+main {
+    padding: 0 1.5rem 0 1.5rem;
 }
 
 
@@ -40,13 +44,11 @@ nav a:hover{
 }
 
 #text-container{ 
-    background-color: hsl(0, 0%, 95%);
     padding: 2rem 0 1rem 0;
     text-align: center;
 }
 
 #events-container{
-    background-color: hsl(0, 0%, 95%);
     display: flex;
     justify-content: center;
 }
@@ -72,7 +74,6 @@ article{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: hsl(0, 0%, 95%);
     padding-bottom: 2rem;
 }
 
@@ -90,6 +91,7 @@ article{
     justify-content: center;
     margin-top: 2rem;
     gap: 1rem;
+    text-align: center;
 }
 
 #section-container section{
@@ -132,6 +134,7 @@ section h3 {
     margin-bottom: 1rem;
 }
 
+
 p,li{
     line-height: 1.5rem;
 }
@@ -155,6 +158,7 @@ p strong {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 0;
 }
 
 table{
@@ -184,16 +188,24 @@ form{
 
 
 fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
     border: none;
-    margin: 1rem;
+    margin: .5rem 0 .5rem 0;
 }
 
 input{
+    width: 10rem;
     padding: .4rem;
 }
+input[type="checkbox"] {
+    width: 1rem;
+}
 
-.check-inputs input{
-    margin-left: 1rem;
+fieldset h3{
+    padding: 0 1rem 0 1rem;
 }
 
 
@@ -212,9 +224,6 @@ input{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-.gender{
-    margin-left: 1rem;
 }
 
 iframe{
@@ -285,19 +294,6 @@ fieldset p{
 }
 
 @media (max-width: 726px) {
-    .two-inputs{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .two-inputs input{
-        width: 12.4rem;
-        margin-bottom: 1rem;
-    }
-    .two-inputs label{
-        margin-bottom: .3rem;
-    }
     fieldset p{
         width: 80vw;
     }
